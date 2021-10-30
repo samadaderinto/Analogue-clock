@@ -5,23 +5,27 @@
 }
 
 body {
-  background-image: linear-gradient(to right, rgb(133, 133, 204), rgb(158, 158, 240));
+  background-image: url('./stefan-moertl-ZfwypJBrRyU-unsplash.jpg');
   overflow: hidden;
   display: flex;
   justify-content: center;
   align-items: center;
   min-height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+      
 }
 
 .clock {
-    width: 600px;
-    height: 600px;
+    width: 500px;
+    height: 500px;
     border-radius: 50%;
-    border: 2px solid black;
+    border: 3px solid transparent;
     position: relative;
-    background: rgb(41, 241, 231);
-   
-   
+    background: white;
+    margin-left: 7.3px;
+    margin-bottom: 3px;
 }
 
 .clock .number {
